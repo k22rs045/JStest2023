@@ -36,6 +36,21 @@
           }
           txt += "a: "+ a + "<br>";
           $("#disp2").html(txt);
+
+          var b = new Array(3);
+          b[0] = 10; b[1] = 50; b[2] = 30;
+          var msg = "";
+          for(let i = 0; i < b.length; i ++){
+            msg += i + ":" + b[i] + "<br>";
+          }
+          $("#disp1").html(msg);
+
+          var b = [100, 20, -5];
+          var msg = "";
+          for(let i = 0; i < b.length; i++){
+            msg += i + ":" + b[i] + "<br>";
+          }
+          $("#disp2").html(msg);
         }
     </script>
 </head>
